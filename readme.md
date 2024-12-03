@@ -3,14 +3,14 @@
 Аккуратно, качество кода оставляет желать лучшего, потому что я не планировал его кому-то давать!
 
 ## Требования
-1. Токен [бота в телеграме|https://t.me/@BotFather]
+1. Токен [бота в телеграме](https://t.me/@BotFather)
 2. Сервер MySQL
-3. Папка в [Yandex.Cloud|https://yandex.cloud] (платно!) для считывания текста с изображений. Можно в принципе вырезать из кода, если не нужно)
+3. Папка в [Yandex.Cloud](https://yandex.cloud) (платно!) для считывания текста с изображений. Можно в принципе вырезать из кода, если не нужно)
 4. Голова
 
 ## Что делать
 1. Импортируй sohranilla.sql в свою базу данных
-2. Создай аккаунт в Yandex.Cloud, [получи токен для Vision API|https://yandex.cloud/ru/docs/vision/quickstart]
+2. Создай аккаунт в Yandex.Cloud, [получи токен для Vision API](https://yandex.cloud/ru/docs/vision/quickstart)
 3. Установи зависимости (`pip install -r requirements.txt`)
 4. Пропиши в main.py данные от сервера, токен от бота и от Vision API
 5. Заводи! Например, так (Linux): `sudo nohup python3 /var/bot/main.py &`
