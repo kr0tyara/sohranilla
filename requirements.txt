@@ -1,0 +1,4 @@
+mysql-connector==2.2.9
+pymorphy2==0.9.1
+pyTelegramBotAPI==4.24.0
+Requests==2.32.3
